@@ -1,3 +1,45 @@
-// Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+@import 'variables';
+
+#home {
+	h1 {
+		margin-top: 150px;
+		font-size: 80px;
+		line-height: 60px;
+		color: $white;
+	}
+	p {
+		margin-top: 25px;
+		font-size: 20px;
+		line-height: 24px;
+	}
+	img {
+		position: fixed;
+    bottom: 160px;
+		float: right;
+	}
+	video {
+
+	}
+	.landing {
+		h1 {
+			font-size: 170px;
+			line-height: 127px;
+		}
+	}
+	.ucd {
+		p {
+			width: 500px;
+		}
+	} 		
+	.ecommerce {
+		p {
+			width: 460px;
+		}
+	}
+	.business-systems {
+		p {
+			width: 540px;
+		}
+	}	
+}

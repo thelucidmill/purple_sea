@@ -1,0 +1,28 @@
+@import 'variables';
+
+* { font-family: 'Kanit', 'Helvetica', sans-serif }
+
+#site-container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.clearfix {
+	clear: both;
+	visibility: hidden;
+}
+
+h1 {
+	color: $dark-purp;
+	font-family: 'Kanit';
+	font-weight: '700';
+}
+
+p, li, a {
+	font-family: 'Raleway', 'Helvetica', sans-serif;
+}
+
+#footer {
+	color: $light-purp;
+}
+
