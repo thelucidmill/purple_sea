@@ -8,6 +8,6 @@ class PagesController < ApplicationController
 	def blog
 	end
 
-	def contect
+	def contact
 	end
 end
