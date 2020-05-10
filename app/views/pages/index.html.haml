@@ -2,8 +2,4 @@
 	.landing
 		%h1 DIVE DEEPER
 		%h3 Open session for all ages and abilities. Whether you'
-		/ = video_tag "videos/home-comp-web.mp4", :controls => false, :autoplay => "autoplay"
-		/ = video_tag "videos/home-comp-web.mp4", controls: false, autoplay: true
-		/ %video{:controls => "", :height => "240", :width => "320"}
-		/ 	%source{:src => "images/videos/home-comp-web.mp4", :type => "video/mp4"}
-		= render partial: 'pages/video'
+		= video_tag(["videos/home-comp-web.mp4"], :autoplay => true, :loop => true)
