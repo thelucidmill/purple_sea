@@ -1,6 +1,8 @@
 #header
-	%p User Experience / Interface
-	= image_tag("purplesea-logo.svg")
-	= link_to "Services", services_path
-	= link_to "Blog", blog_path
-	= link_to "Contact", contact_path
+	.header-container
+		%p User Experience / Interface
+		= link_to image_tag("purplesea-logo.svg"), root_path
+		.menu
+			= link_to "Services", services_path
+			= link_to "Blog", blog_path
+			= link_to "Contact", contact_path

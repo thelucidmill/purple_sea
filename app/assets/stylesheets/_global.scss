@@ -12,6 +12,10 @@
 	visibility: hidden;
 }
 
+a { 
+	color: $light-purp;
+}
+
 h1 {
 	color: $dark-purp;
 	font-family: 'Kanit';
@@ -20,6 +24,31 @@ h1 {
 
 p, li, a {
 	font-family: 'Raleway', 'Helvetica', sans-serif;
+}
+
+#header {
+	.header-container {
+		max-width: 1200px;
+		margin: 0 auto;
+		display: flex;
+		background-color: $white;
+		justify-content: space-between;
+		align-items: center;
+		z-index: 100;
+		p {
+			font: 300 16px Raleway, 'Helvetica', sans-serif;
+		}
+		img {
+			height: 30px;
+			width: auto;
+	  	margin: 20px auto;
+		}
+		.menu a {
+			margin-right: 30px;
+			font: 700 16px Raleway, 'Helvetica', sans-serif;
+			text-decoration: none;
+		}
+	}
 }
 
 #footer {
