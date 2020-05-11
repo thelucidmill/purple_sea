@@ -1,11 +1,11 @@
 #home
-	= image_tag("arrow.svg")
 	.landing
 		%h1 
 			DIVE 
 			%br
 			DEEPER
-	= video_tag(["videos/home-comp-web.mp4"], autoplay: true, loop: true, muted: 'muted', class: :standard_post_video)
+		= image_tag("arrow.svg")
+		= video_tag(["videos/home-comp-web.mp4"], autoplay: true, loop: true, muted: 'muted', class: :standard_post_video)
 	.ucd
 		%h1 
 			USER 
@@ -16,6 +16,7 @@
 		%p
 			%strong Put the user needs first.
 			Websites and apps need to revolve around the wants and needs of its users alongside business goals.
+		= image_tag("arrow.svg")
 		= video_tag(["videos/ucd-comp-web.mp4"], autoplay: true, loop: true, muted: 'muted', class: :standard_post_video)
 	.ecommerce
 		%h1 
@@ -25,6 +26,7 @@
 			%strong
 				keep customers engaged, 
 			build trust in the brand and convert sales is becoming increasingly important.
+		= image_tag("arrow.svg")
 		= video_tag(["videos/sharks-comp-web.mp4"], autoplay: true, loop: true, muted: 'muted', class: :standard_post_video)
 	.business-systems
 		%h1 
@@ -35,4 +37,5 @@
 			Systems responsible for large amounts of data moving at the hands of many users must be as efficient as possible. 
 			%strong
 				Saving time and reducing human errors. 
+		= image_tag("arrow.svg")
 		= video_tag(["videos/fish-comp-web.mp4"], autoplay: true, loop: true, muted: 'muted', class: :standard_post_video)

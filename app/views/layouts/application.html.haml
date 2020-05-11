@@ -8,9 +8,29 @@
     = stylesheet_link_tag    'https://fonts.googleapis.com/css2?family=Kanit:wght@800;900&display=swap', media: 'all', 'data-turbolinks-track' => true
     = stylesheet_link_tag    'https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap', media: 'all', 'data-turbolinks-track' => true
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
-    = javascript_pack_tag 'main'
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"}
 
-  %body{:onload => "myFunction()"}
+    :javascript
+      $(document).ready(function(){
+        $(".landing img").click(function(){
+          $( ".landing" ).hide();
+          $( ".ucd" ).show();
+        });
+        $(".ucd img").click(function(){
+          $( ".ucd" ).hide();
+          $( ".ecommerce" ).show();
+        });
+        $(".ecommerce img").click(function(){
+          $( ".ecommerce" ).hide();
+          $( ".business-systems" ).show();
+        });
+        $(".ecommerce img").click(function(){
+          $( ".ecommerce" ).hide();
+          $( ".business-systems" ).show();
+        });
+      });
+
+  %body
     = render partial: 'layouts/header'
     #site-container
       = yield
