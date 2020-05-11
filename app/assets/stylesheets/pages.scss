@@ -61,6 +61,20 @@
 		position: absolute;
 	}
 	.ucd, .ecommerce, .business-systems, {
-		display: none;
+		h1, p, img {
+			display: none;
+		}
+	}
+	.ucd, .ecommerce, .business-systems, {
+		video {
+			opacity: 0;
+		}
 	}
 }
+
+
+
+
+
+
+

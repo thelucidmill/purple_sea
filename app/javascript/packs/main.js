@@ -18,3 +18,29 @@
 //       $('.landing').hide();
 //     });
 //   });
+
+:javascript
+      $(document).ready(function(){
+        $(".landing img").click(function(){
+          $( ".landing" ).hide();
+          $( ".ucd" ).show();
+        });
+        $(".ucd img").click(function(){
+          $( ".ucd" ).hide();
+          $( ".ecommerce" ).show();
+        });
+        $(".ecommerce img").click(function(){
+          $( ".ecommerce" ).hide();
+          $( ".business-systems" ).show();
+        });
+        $(".ecommerce img").click(function(){
+          $( ".ecommerce" ).hide();
+          $( ".business-systems" ).show();
+        });
+      });
+
+      :javascript
+	$(document).ready(function(){
+		location.reload();   
+	});
+    

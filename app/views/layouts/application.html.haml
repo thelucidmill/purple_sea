@@ -14,21 +14,24 @@
       $(document).ready(function(){
         $(".landing img").click(function(){
           $( ".landing" ).hide();
-          $( ".ucd" ).show();
+          $( ".ucd h1, .ucd p, .ucd img" ).show();
+          $( ".ucd video" ).animate({
+            opacity: 1}, 1500 );
         });
         $(".ucd img").click(function(){
           $( ".ucd" ).hide();
-          $( ".ecommerce" ).show();
+          $( ".ecommerce h1, .ecommerce p, .ecommerce img" ).show();
+          $( ".ecommerce video" ).animate({
+            opacity: 1}, 1500 );
         });
         $(".ecommerce img").click(function(){
           $( ".ecommerce" ).hide();
-          $( ".business-systems" ).show();
-        });
-        $(".ecommerce img").click(function(){
-          $( ".ecommerce" ).hide();
-          $( ".business-systems" ).show();
+          $( ".business-systems h1, .business-systems p, .business-systems img" ).show();
+          $( ".business-systems video" ).animate({
+            opacity: 1}, 1500 );
         });
       });
+
 
   %body
     = render partial: 'layouts/header'
