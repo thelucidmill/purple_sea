@@ -10,6 +10,8 @@
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"}
 
+
+  %body
     :javascript
       $(document).ready(function(){
         $(".landing img").click(function(){
@@ -31,9 +33,6 @@
             opacity: 1}, 1500 );
         });
       });
-
-
-  %body
     = render partial: 'layouts/header'
     #site-container
       = yield
