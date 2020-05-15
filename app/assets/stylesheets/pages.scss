@@ -127,3 +127,48 @@
 		}
 	}
 }
+
+#blog {
+	h3 {
+		border-top: 1px solid $light-grey;
+		border-bottom: 1px solid $light-grey;
+		margin: 10px 0 60px 0;
+		padding: 20px 0;
+		font-size: 40px;
+		color: $light-grey;
+	}
+	.menu-col {
+		width: 30%;
+		display: inline-block;
+		float: right;
+		a {
+			font: 700 16px/40px Raleway, 'Helvetica', sans-serif;
+			text-decoration: none;
+		}
+	}
+	.main-col {
+		width: 60%;
+		display: inline-block;
+		float: left;
+		h1 {
+			font-size: 30px;
+			border-bottom: 1px solid $dark-purp;
+			padding: 5px 0;
+		}
+		h2 {
+			margin-top: 5px;
+			font-size: 18px;
+			font-weight: 800;
+			color: $light-grey;
+		}
+		h6 {
+			font: 16px Raleway, 'Helvetica', sans-serif;
+			color: $light-grey;
+		}
+		p {
+			margin: 15px 0;
+			font: 300 20px/30px Raleway, 'Helvetica', sans-serif;
+		}
+	}
+}
+

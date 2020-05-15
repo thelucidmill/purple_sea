@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 	get '/services', to: 'pages#services', as: 'services'
 	get '/blog', to: 'pages#blog', as: 'blog'
 	get '/contact', to: 'pages#contact', as: 'contact'
+
+	get '/product_detail_pages', to: 'blog#product_detail_pages'
 end
