@@ -56,9 +56,6 @@ p, li, a {
 	color: $light-purp;
 	font-size: 12px;
 	bottom: 5px;
-	#home {
-		color: $white;
-	}
 }
 
 .sticky {
@@ -67,5 +64,9 @@ p, li, a {
 
 .non-sticky {
 	position: static;
+}
+
+.white {
+	color: $white !important;
 }
 

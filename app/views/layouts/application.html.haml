@@ -39,8 +39,12 @@
         var screen = $( window ).height();
         var page = $( document ).height();
         if (page > screen) {
-          $("#footer").addClass("non-sticky");;
+          $("#footer").addClass("non-sticky");
         }
+        var pathname = window.location.pathname;
+        if (pathname == '/') {
+          $("#footer").addClass("white")
+        };
       });
 
     = render partial: 'layouts/header'
