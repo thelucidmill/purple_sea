@@ -27,6 +27,7 @@ p, li, a {
 }
 
 #header {
+	background-color: $white;
 	.header-container {
 		max-width: 1200px;
 		margin: 0 auto;
@@ -52,9 +53,8 @@ p, li, a {
 }
 
 #footer {
-	font-weight: 300;
-	color: $light-purp;
-	font-size: 12px;
+	font: 300 10px Raleway, 'Helvetica', sans-serif;
+	font-size: 10px !important;
 	bottom: 5px;
 }
 
