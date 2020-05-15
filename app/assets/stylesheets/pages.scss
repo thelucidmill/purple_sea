@@ -97,6 +97,32 @@
 	}
 }
 
+#contact {
+	.container {
+		margin-top: 150px;
+		width: 30%;
+		h1 {
+			border-bottom: 1px solid $dark-purp;
+			padding-bottom: 15px;
+			margin-bottom: 25px;
+			font-size: 40px;
+		}
+		p {
+			margin-bottom: 30px;
+			font: 300 18px/22px Raleway, 'Helvetica', sans-serif;
+		}
+		a {
+			font: 700 18px/22px Raleway, 'Helvetica', sans-serif;
+			text-decoration: underline;
+		}
+		img {
+			width: 60%;
+			position: fixed;
+			bottom: 0;
+			right: 0;
+		}
+	}
+}
 
 
 

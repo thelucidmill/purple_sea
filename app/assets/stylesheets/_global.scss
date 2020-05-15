@@ -52,7 +52,13 @@ p, li, a {
 }
 
 #footer {
+	font-weight: 300;
 	color: $light-purp;
 	font-size: 12px;
+	// position: absolute;
+	// bottom: 5px;
+	#home {
+		color: $white;
+	}
 }
 
