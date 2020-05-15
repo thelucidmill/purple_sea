@@ -1,5 +1,14 @@
 // import 'css/site.scss'
 
+
+// $(document).ready(function(){
+//   var screen = $( window ).height();
+// 	var page = $( document ).height();
+// 	if (page > screen) {
+// 		alert('siufgd');
+// 	}
+// });
+
 // $(document).ready(function(){
 //   $("p").click(function(){
 //     $(this).hide();

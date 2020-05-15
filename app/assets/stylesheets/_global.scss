@@ -55,10 +55,17 @@ p, li, a {
 	font-weight: 300;
 	color: $light-purp;
 	font-size: 12px;
-	// position: absolute;
-	// bottom: 5px;
+	bottom: 5px;
 	#home {
 		color: $white;
 	}
+}
+
+.sticky {
+	position: fixed;
+}
+
+.non-sticky {
+	position: static;
 }
 

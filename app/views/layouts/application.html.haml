@@ -33,8 +33,17 @@
             opacity: 1}, 1500 );
         });
       });
+
+    :javascript
+      $(document).ready(function(){
+        var screen = $( window ).height();
+        var page = $( document ).height();
+        if (page > screen) {
+          $("#footer").addClass("non-sticky");;
+        }
+      });
+
     = render partial: 'layouts/header'
     #site-container
       = yield
-      #footer
-        = render partial: 'layouts/footer'
+      = render partial: 'layouts/footer'
