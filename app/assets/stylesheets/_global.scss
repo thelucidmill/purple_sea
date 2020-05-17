@@ -1,5 +1,7 @@
 @import 'variables';
 
+// rm -fr tmp/cache  <- this clears cache
+
 * { font-family: 'Kanit', 'Helvetica', sans-serif }
 
 #site-container {
@@ -53,6 +55,7 @@ p, li, a {
 }
 
 #footer {
+	padding-bottom: 3px;
 	font: 300 10px Raleway, 'Helvetica', sans-serif;
 	font-size: 10px !important;
 	bottom: 5px;
