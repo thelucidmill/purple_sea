@@ -27,3 +27,56 @@
 		}
 	}
 }
+
+@media screen and (max-width: 768px) {
+	#header {
+		.header-container {
+			padding: 0 50px;
+			p {
+				font-size: 14px;
+			}
+			.menu a {
+				font-size: 14px;
+			}
+		}
+	}
+	#contact {
+		.container {
+			width: 60%;
+		}
+		img {
+			width: 80%;
+		}
+	}
+	#services {
+		.col {
+			margin-top: 120px;
+			display: inline-block;
+		}
+		h1 {
+			width: 350px;
+			font-size: 80px;
+			border-bottom: 1px solid $dark-purp;
+			margin-right: 100px;
+		}
+		h2 {
+			color: $light-grey;
+			font-size: 35px;
+			line-height: 28px;
+			padding: 15px 0;
+		}
+		ul {
+			li {
+				font: 300 15px/20px Raleway, 'Helvetica', sans-serif;
+			}
+		}
+	}
+	#blog {
+		.main-col {
+			p {
+				font-size: 16px !important;
+				line-height: 24px !important;
+			}
+		}
+	}
+}
